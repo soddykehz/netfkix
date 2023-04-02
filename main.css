@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../background.jpg);
+    background-color: rgba(0, 0, 0, 0.640);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    
+}
+
+main {
+    height: 150vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+   
+}
+
+.why{
+    width: 35%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0.700);
+}
+
+h1{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.email , .pass {
+    padding: 1rem 5rem;
+    margin-top: 1.5rem;
+    text-align: start;
+    border-radius: 5px;
+}
+
+.yes {
+   margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 1rem 8.4rem;
+    margin-top: 1.5rem;
+    background-color: #e20d15;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+.ok {
+    margin-top: 0.5rem;
+    color: #d6d5cf;
+}
+
+h3 {
+    margin-top: 3rem;
+    color: #d6d5cf;
+}
+
+h4 {
+    margin-top: 1rem;
+    color: #d6d5cf;
+    font-size: medium;
+    font-weight: 200;
+}
+
+
+.end {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    color: white;
+    /* line-height: 1rem; */
+    background-color: rgba(0, 0, 0, 0.700);
+    width: 100%;
+    padding: 3rem 0rem;
+    margin-bottom: 2rem;
+}
+
+.oops {
+    color: white;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+ul li {
+    gap: 2rem;
+}
+
+a {
+    color: white;
+}
+
+.blue {
+    color: blue;
+}
+
+
+ul li {
+    margin-top: 1rem;
+}
+
+#li {
+    margin-left: 8rem;
+}
+
+ul .oops {
+   margin-top: -2rem;
+}
+
+ul .now {
+    margin-top:2rem;
+}
+
+.end li a {
+    position: relative;
+    color: white;
+  }
+
